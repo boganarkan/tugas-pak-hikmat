@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#f4d8e7;
+}
+
+.mobile-container{
+    width:100%;
+    max-width:390px;
+    min-height:100vh;
+    background:#fff;
+    margin:auto;
+    position:relative;
+}
+
+.welcome-page,
+.auth-page,
+.dashboard-page,
+.task-page,
+.profile-page,
+.settings-page{
+    padding:30px;
+}
+
+.logo-box{
+    width:120px;
+    height:120px;
+    background:#ec8db7;
+    border-radius:25px;
+    margin:100px auto 30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    font-size:50px;
+}
+
+.btn-pink{
+    width:100%;
+    padding:15px;
+    display:block;
+    text-align:center;
+    background:#f58bb7;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    margin-top:20px;
+}
+
+.btn-white{
+    width:100%;
+    padding:15px;
+    display:block;
+    text-align:center;
+    background:white;
+    border:2px solid #f58bb7;
+    color:#f58bb7;
+    text-decoration:none;
+    border-radius:30px;
+    margin-top:15px;
+}
